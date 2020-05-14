@@ -10,7 +10,8 @@ Max number of players allowed is 4 and with a min of 2.
 Enjoy the game.
 A simple Command-line snake-and-ladder game"""
 
-
+#this is the old and not so cool version,
+#please go to the other file if you want a better version
 def Move(Player, value):
     snake_squares = {16: 4, 22:10, 33: 20, 48: 24, 62: 56, 78: 69, 74: 60, 91: 42, 97: 6}
     ladder_squares = {3: 12, 7: 23, 11:25, 21: 56, 47: 53, 60: 72, 80: 96}
